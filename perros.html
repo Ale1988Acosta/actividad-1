@@ -4,70 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link tipe="text/css" rel="stylesheet" href="css/diseno.css">
     <title>Sección de perros</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+            background-color: #b3181f;
+            width: 100%;
+            border-radius: 10px;
+            
+        }
+        li {
+            float:left;
+        }
+        li a {
+            display:block;
+            color: white;
+            text-align:center;
+            padding: 8px 10px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #d8262f;
+            border-radius: 100px;
+        }
+
+    </style>
 </head>
 
 <body>
+    
+<ul>
+    
+    <a href="paginaprincipal.html" target="_self"><img class="alineadoTextoImagenCentro" src="imagenes/nariz.png" alt="No disponible" width="65" height="65" 
+        style="margin-left: 10px; margin-top: 5px; padding: 2px; margin-right: 2px;" >
+        <a href="paginaprincipal.html" target="_self" style="color: white;">Ayuda a un peludo</a> 
+        
+    <li style="float: right;margin-top: 18px; margin-right: 5px;"><a href="">Hazte Socio</a></li>
+    <li style="float: right;margin-top: 18px;"><a href="">Donación</a></li>
+    <li style="float: right;margin-top: 18px;"><a href="paginaprincipal.html" target="_self">Inicio</a></li>
+</ul>
+    <p class="espacio"></p>
+    <h1>Perros en adopción</h1>
+    <p><center>La mayoria de nuestros amigos caninos fueron encontrados en las calles de Santiago,<br> 
+        fueron vacunados y recibieron con anterioridad el mayor cuidado, para ir a una familia mejor</center></p>
+    <p class="espacio"></p>
+    <h1>Perritos que te esperan</h1>
     <table>
         <tr>
-            <td width="900" height="50"><img src="imagenes/nariz.png" alt="No disponible" width="130" height="50">
-            <td> <a href="paginaprincipal.html" target="_self"><h5 style="color: darkgrey;"><font face="Century Gothic"><center>Inicio</center></font></h5></a> </td>
-            <td><h5 style="color: darkgrey;"><font face="Century Gothic"><center>Donación</center></font></h5></td>
-            <td><h5 style="color: darkgrey;"><font face="Century Gothic"><center>Hazte Socio</center></font></h5></td>
-            </td>
-        </tr>
-    </table>
-    
-    <br>
-    <br>
-    <h1 style= "color: #AC6BAD;"><font face="Century Gothic"><center>Perros en adopción</center></font></h1>
-    <p><font face="Century Gothic"><center>La mayoria de nuestros amigos caninos fueron encontrados en las calles de Santiago,<br> 
-        fueron vacunados y recibieron con anterioridad el mayor cuidado, para ir a una familia mejor</center> </font></p>
-    
-        <br>
-        <br>
-        <br>
-    <h2 style="color:#AC6BAD"><font face="Century Gothic"><center>Perritos que te esperan</center></font></h2>
-    <table>
-        <tr>
-            <td><img src="imagenes/rocky.png" alt="El canino no quiso foto" width="230" height="230"> &nbsp;&nbsp;&nbsp;&nbsp
-            <td><img src="imagenes/Scooby.jpg" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/simba.png" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/Max.jpg" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/leo.png" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="imagenes/rocky.png" alt="El canino no quiso foto" class="img" > &nbsp;&nbsp;&nbsp;&nbsp
+            <td><img src="imagenes/Scooby.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="imagenes/simba.png" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="imagenes/Max.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="imagenes/leo.png" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
             </td>
         </tr>
         <tr>
             <td>
-               <font face="Century Gothic"><center>Rocky</center></font>
-               <td><font face="Century Gothic"><center>Scooby</center></font></td>
-               <td><font face="Century Gothic"><center>Simba</center></font></td>
-               <td><font face="Century Gothic"><center>Max</center></font></td>
-               <td><font face="Century Gothic"><center>Leo</center></font></td>
+               <a href=""><center>Rocky</center></a>
+               <td><a href=""><center>Scooby</center></a></td>
+               <td><a href=""><center>Simba</center></a></td>
+               <td><a href=""><center>Max</center></a></td>
+               <td><a href=""><center>Leo</center></a></td>
             </td>
         </tr>
     </table>
-    <br>
-    <br>
-    
+    <div class="espacio"></div>
     <table>
         <tr>
-            <td><img src="imagenes/tinta.jpg" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp
-            <td><img src="imagenes/toby.jpg" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/luk.png" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/capitan.jpg" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/linda.jpg" alt="El canino no quiso foto" width="230" height="230">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            
+            <td><img src="imagenes/tinta.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp
+            <td><img src="imagenes/toby.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="imagenes/luk.png" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="imagenes/capitan.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="imagenes/linda.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
             </td>
         </tr>
-
         <tr>
             <td>
-                <font face="Century Gothic"><center>Tinta</center></font>
-                <td><font face="Century Gothic"><center>Toby</center></font></td>
-                <td><font face="Century Gothic"><center>Luk</center></font></td>
-                <td><font face="Century Gothic"><center>Capitan</center></font></td>
-                <td><font face="Century Gothic"><center>Linda</center></font></td>
+                <a href=""><center>Tinta</center></a>
+                <td><a href=""><center>Toby</center></a></td>
+                <td><a href=""><center>Luk</center></a></td>
+                <td><a href=""><center>Capitan</center></a></td>
+                <td><a href=""><center>Linda</center></a></td>
             </td>
         </tr>
     </table>
