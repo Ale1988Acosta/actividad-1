@@ -20,8 +20,8 @@
         li {
             float:left;
         }
-        li a {
-            display:block;
+        li a, .drop {
+            display:inline-block;
             color: white;
             text-align:center;
             padding: 8px 10px;
@@ -29,7 +29,38 @@
         }
         li a:hover:not(.active) {
             background-color: #d8262f;
-            border-radius: 100px;
+            border-radius: 10px;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: #d8262f;
+            border-radius: 10px;
+        }
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 85px;
+            box-shadow: 0px 8px 16px 0px rgba(39, 39, 39, 0.363);
+            z-index: 1;
+            border-radius: 10px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #d8262f;}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
         }
 
     </style>
@@ -46,20 +77,27 @@
     <li style="float: right;margin-top: 18px; margin-right: 5px;"><a href="">Hazte Socio</a></li>
     <li style="float: right;margin-top: 18px;"><a href="">Donación</a></li>
     <li style="float: right;margin-top: 18px;"><a href="paginaprincipal.html" target="_self">Inicio</a></li>
+    <li class="dropdown" style="margin-top: 18px; margin-left: 5px;float: right;">
+        <a href="javascript:void(0)" class="dropbtn">Adoptar</a>
+        <div class="dropdown-content">
+          <a href="perros.html">Perros</a>
+          <a href="gatos.html">Gatos</a>
+        </div>
+    </li>
 </ul>
     <p class="espacio"></p>
-    <h1>Perros en adopción</h1>
-    <p><center>La mayoria de nuestros amigos caninos fueron encontrados en las calles de Santiago,<br> 
+    <h1>Gatos en adopción</h1>
+    <p><center>La mayoria de estos gatitos fueron encontrados en las calles de Santiago,<br> 
         fueron vacunados y recibieron con anterioridad el mayor cuidado, para ir a una familia mejor</center></p>
     <p class="espacio"></p>
-    <h1>Perritos que te esperan</h1>
+    <h1>Gatos que te esperan</h1>
     <table>
         <tr>
-            <td><img src="Imagenes/images.jpg" alt="El canino no quiso foto" class="img"> &nbsp;&nbsp;&nbsp;&nbsp
-            <td><img src="Imagenes/descarga.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="Imagenes/gato-slide.webp" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="Imagenes/Toulouse.webp"alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="Imagenes/image.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="Imagenes/yerry.png" alt="No quiso foto" class="img"> &nbsp;&nbsp;&nbsp;&nbsp
+            <td><img src="Imagenes/marie.png" alt="No quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="Imagenes/manolo.png" alt="No quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="Imagenes/Toulouse.png"alt="No quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
+            <td><img src="Imagenes/vela.png" alt="No quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
 
         </tr>
         <tr>
@@ -71,25 +109,6 @@
         </tr>
     </table>
     <div class="espacio"></div>
-    <table>
-        <tr>
-            <td><img src="imagenes/tinta.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp
-            <td><img src="imagenes/toby.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/luk.png" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/capitan.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><img src="imagenes/linda.jpg" alt="El canino no quiso foto" class="img">&nbsp;&nbsp;&nbsp;&nbsp</td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href=""><center>Tinta</center></a>
-                <td><a href=""><center>Toby</center></a></td>
-                <td><a href=""><center>Luk</center></a></td>
-                <td><a href=""><center>Capitan</center></a></td>
-                <td><a href=""><center>Linda</center></a></td>
-            </td>
-        </tr>
-    </table>
     
 </body>
 </html>
