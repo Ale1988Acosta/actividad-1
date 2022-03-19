@@ -1,0 +1,67 @@
+/*Espacio de las cajas*/
+.espacio{
+    margin-bottom: 55px;
+}
+
+/*Color de las letras*/
+h1{
+    color: #b3181f;
+    text-align: center;
+}
+
+/*Botones*/
+a{
+    text-align: center;
+    color: #d8262f;
+    text-decoration: none;  
+  }
+a:link{
+    text-decoration: none;
+  }
+a:hover {
+    color: darkgrey;
+    cursor: pointer;
+  }
+
+/*Tamaño de botones*/
+.tamano{
+    font-size: 13px;
+}
+
+/*Tipo de fuente global*/
+*{
+    font-family:"Century Gothic";
+}
+
+/*tamano imagen*/
+.img{
+    width: 230px;
+    height: 230px;
+}
+
+
+/*Espacio de lado botones*/
+.ladob{
+    margin-right: 20px;
+}
+
+img.alineadoTextoImagenCentro{
+    vertical-align: middle;
+  }
+
+  a:link{
+    text-decoration: none;
+  }
+  a:hover {
+    color: darkgrey;
+    cursor: pointer;
+  }
+
+  .boton {
+    border: 1px solid #b3181f; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #d8262f; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
