@@ -14,11 +14,11 @@ a{
     text-align: center;
     color: #d8262f;
     text-decoration: none;  
-}
+  }
 a:link{
     text-decoration: none;
   }
-  a:hover {
+a:hover {
     color: darkgrey;
     cursor: pointer;
   }
@@ -57,3 +57,11 @@ img.alineadoTextoImagenCentro{
     cursor: pointer;
   }
 
+  .boton {
+    border: 1px solid #b3181f; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #d8262f; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
