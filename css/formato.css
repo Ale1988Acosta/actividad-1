@@ -1,0 +1,81 @@
+/*tamaño imagen*/
+.imagen{
+    width: 350px;
+    height: 270px;
+}
+
+.narizimag{
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagenadot{
+    width: 700px; 
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+.sinsubrayar{
+    text-decoration: none;
+}
+
+/*Color de las letras*/
+a{
+    color: #8500a3;
+    text-align: center;
+}
+
+.principal{
+    color: white;
+}
+
+.recuadro{
+    border-radius: 25px;
+    border: 2px solid #8500a3;
+    background: white;
+    padding: 20px; 
+    width: 700px;
+    height: 200px;  
+}
+
+.precuadro{
+    border-radius: 30px;
+    background: #8500a3;
+    padding: 0px; 
+    width: 1300px;
+    height: 65px; 
+    margin-bottom: 30px;
+
+}
+
+.titulocuadro{
+    border-radius: 25px;
+    border: 2px solid #8500a3;
+    background: #8500a3;
+    padding: 20px; 
+    width: 700px;
+    height: 40px; 
+}
+
+h2{
+    color:white;
+    text-align: center;
+}
+
+/*Tipo de fuente global*/
+*{
+    font-family:"Century Gothic";
+}
+
+.bar {
+    width: 50px; height: 100px;
+}
+
+body{
+    background-image: url(patitas.png);
+    background-repeat: repeat-x;
+}
