@@ -6,26 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONG-AYUDA</title>
     <link tipe="text/css" rel="stylesheet" href="css/formato.css">
-    <style>
-        ul.a {
-          list-style-position: outside;
+<style>
+        ul {
+            list-style-type: none;
         }
-        
-        ul.b {
-          list-style-position: inside;
+        li {
+            float:left;
         }
-    </style>
+        li a, .drop {
+            display:inline-block;
+            color: white;
+            text-align:center;
+            padding: 8px 10px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color:blueviolet;
+            border-radius: 10px;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: blueviolet;
+            border-radius: 10px;
+        }
+        .button {
+            background-color: #4CAF50; /* Green */
+            border-radius: 10px;
+            color: white;
+            padding: 8px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #8500a3;
+        }
+
+        .button1:hover {
+        background-color: #8500a3;
+        color: white;
+        }
+        .ingreso {
+        border-radius: 5px;
+        background-color: #def;
+        padding: 10px;
+        }
+</style>
 </head>
 <body>
+    <ul class="precuadro">
+        <li width="100" height="50"><img src="imagenes\nariz.png" alt="No disponible" class="narizimag"></li>
+        <li><h3 class="principal">ONG-Ayuda a tu Peludo</h3></li>  
+        <li style="float: right;margin-top: 17px; margin-right: 5px;"><a href="" style="color: white;">Hazte Socio</a></li>
+        <li style="float: right;margin-top: 17px;"><a href="" style="color: white;">Donación</a></li>
+        <li style="float: right;margin-top: 17px;"><a href="" style="color: white;">Contactanos</a></li>
+            </div>
+        </li>
+    </ul>
     <center>
-        <table class="precuadro">
-            <tr>
-                <td width="100" height="50"><img src="imagenes\nariz.png" alt="No disponible" class="narizimag">
-                <td><h3 class="principal">ONG-AYUDA A TU PELUDO</h3>
-                </td>
-            </tr>
-        </table>
-
         <table>
         <tr>
             <td>
@@ -33,26 +77,23 @@
             </td> 
             <td class="recuadro">
                 <h1><center>Quienes Somos</center></h1>
-                <p><center>Somos una organizacion sin fines de lucro, dedicada a realizar<br> un conjunto
-                    de acciones solidarias entre ellas la detenccion y<br> alojamiento de animales  
-                    abandonados con el fin de<br> entregarlos en adopción.</center></p>
+                <p class="justificado">Somos una organizacion sin fines de lucro, dedicada a realizar un conjunto
+                    de acciones solidarias entre ellas la detenccion y alojamiento de animales  
+                    abandonados con el fin de entregarlos en adopción.</p>
             </td>
-            </tr>
+        </tr>
         </table>
         
-        <h2 class="titulocuadro">Nuestros integrantes:</h2>
-        <table >
-        <ul>
-        <tr><li>Directora - Angie Garcia Ocas</li>
-        <li>Gerente - Maria Acosta Saéz</li>
-        <li>Captador de recuersos - Ivan Hernández Morales</li>
-        <li>Cordinador de campañas - Luis Sandoval Correa </li>
-        <li>Cordinador de comunicaciones - Armando Paz Robles </li>
-        <li>Vlogger - Nathalie Castro Muñoz </li></tr>
-        </ul>
+        <h2>Nuestros integrantes</h2>
+        <table>
+        <td class="integrant">Directora - Angie Garcia Ocas</td>
+        <td class="integrant">Gerente - Maria Acosta Saéz</td>
+        <td class="integrant">Captador de recuersos - Ivan Hernández Morales</td>
+        <td class="integrant">Cordinador de campañas - Luis Sandoval Correa</td>
+        <td class="integrant">Cordinador de comunicaciones - Armando Paz Robles</td>
         </table>
-        <h2 class="titulocuadro">Nuestras sessiones de ayuda:</h2>
-    
+        <h2>Nuestras sessiones de ayuda</h2>
+
     <table>
         <tr>
         <td>
@@ -74,11 +115,34 @@
 
     </table>
 
-    <p>                    
-        Si quieres participar en nuestra área de voluntariado, escribe a <b>info@ayudapeludo.cl</b>
-    </p>
-    <img src="imagenes\compartir.jpg" alt="No se encontro la imagen" width="140" height="50">
-    <p> Casa Matriz: Santiago,Región Metropolitana</p>  
+    <h2>Nuestros Alianzas</h2>
+
+    <table>
+        <tr>
+        <td class="alianzas">
+            <a href="https://www.petfy.net/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey no-lightbox"><img width="150" height="180" src="https://fundacionhuellaanimal.cl/wp-content/uploads/2020/09/Logos-alianzas_0009_logo-petfy-150x180.png" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy"></a>
+        </td>
+        <td class="alianzas">
+            <a href="https://www.amigales.cl/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey no-lightbox"><img width="180" height="180" src="https://fundacionhuellaanimal.cl/wp-content/uploads/2020/09/Logos-alianzas_0010_Amigales2.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="https://fundacionhuellaanimal.cl/wp-content/uploads/2020/09/Logos-alianzas_0010_Amigales2.png 180w, https://fundacionhuellaanimal.cl/wp-content/uploads/2020/09/Logos-alianzas_0010_Amigales2-100x100.png 100w" sizes="(max-width: 180px) 100vw, 180px"></a> 
+        </td>
+        <td class="alianzas">
+            <a href="https://barrioanimal.cl/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey no-lightbox"><img width="150" height="180" src="https://fundacionhuellaanimal.cl/wp-content/uploads/2020/09/Logos-alianzas_0001_redondo-fondo-blanco-150x180.png" class="vc_single_image-img attachment-thumbnail" alt="" loading="lazy"></a> 
+        </td>
+        <td class="alianzas">
+            <a href="https://www.instagram.com/petfamilycl/?hl=es-la" target="_blank" class="vc_single_image-wrapper vc_box_border_grey no-lightbox"><img width="180" height="180" src="https://fundacionhuellaanimal.cl/wp-content/uploads/2021/01/petfamily.jpg" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="https://fundacionhuellaanimal.cl/wp-content/uploads/2021/01/petfamily.jpg 180w, https://fundacionhuellaanimal.cl/wp-content/uploads/2021/01/petfamily-100x100.jpg 100w" sizes="(max-width: 180px) 100vw, 180px"></a> 
+        </td>
+        </tr>
+    </table>
+    
+    <div class="row">
+    <div class="flex">
+        <p>¿Quieres recibir nuestras noticias?</p>
+        <input class="ingreso"type="email" name="email" placeholder="Email tu email" id="box_suscribe">
+        <button class="button button1">Suscríbete</button>
+    </div>
+    </div>
+    <img src="imagenes\compartir.jpg" alt="No se encontro la imagen" width="140" height="50" style="margin-top: 10px;">
+    <p> <b>Casa Matriz: </b>Santiago,Región Metropolitana</p>  
     </center>
 
 
