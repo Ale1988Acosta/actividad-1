@@ -21,15 +21,15 @@
             text-decoration: none;
         }
         li a:hover:not(.active) {
-            background-color:blueviolet;
+            background-color:#d8262f;
             border-radius: 10px;
         }
         li a:hover, .dropdown:hover .dropbtn {
-            background-color: blueviolet;
+            background-color: #d8262f;
             border-radius: 10px;
         }
         .button {
-            background-color: #4CAF50; /* Green */
+            background-color: #b3181f;
             border-radius: 10px;
             color: white;
             padding: 8px 10px;
@@ -45,11 +45,11 @@
         .button1 {
             background-color: white; 
             color: black; 
-            border: 2px solid #8500a3;
+            border: 2px solid #b3181f;
         }
 
         .button1:hover {
-        background-color: #8500a3;
+        background-color: #b3181f;
         color: white;
         }
         .ingreso {
@@ -57,7 +57,24 @@
         background-color: #def;
         padding: 10px;
         }
-</style>
+
+        .column {
+        float: left;
+        width: 16%;
+        padding: 21px;
+        }
+
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+        @media screen and (max-width:600px) {
+        .column {
+        width: 100%;
+    }
+}
+    </style>
 </head>
 <body>
     <ul class="precuadro">
@@ -85,13 +102,41 @@
         </table>
         
         <h2>Nuestros integrantes</h2>
-        <table>
-        <td class="integrant">Directora - Angie Garcia Ocas</td>
-        <td class="integrant">Gerente - Maria Acosta Saéz</td>
-        <td class="integrant">Captador de recuersos - Ivan Hernández Morales</td>
-        <td class="integrant">Cordinador de campañas - Luis Sandoval Correa</td>
-        <td class="integrant">Cordinador de comunicaciones - Armando Paz Robles</td>
-        </table>
+        
+        <div class="row">
+            <div class="column">
+                <img src="imagenes\angie.jpg" alt="No disponible" class="imgequipo">
+                <h5>Directora - Angie Garcia Ocas</h5>
+                <font size=2><p>Con más de siete años de experiencia en gestión y desarrollo de proyectos, y diez años de experiencia de trabajo en organizaciones no gubernamentales en área medio ambiental/animalista. Descubrió su amor por los animales con su primer perro “Tito”.</p></font>
+            </div>
+            
+            <div class="column">
+                <img src="imagenes\IMG-302.jpg" alt="No disponible" class="imgequipo">
+                <h5>Gerente - Maria Acosta Saéz</h5>
+                <font size=2><p>Estudiante de Quimica, actualmente viviendo en santiago. Amante de los animales tanto de los gatos como de los perros, vive con 7 animales adoptados.</p></font>
+            </div>
+            
+            <div class="column">
+                <img src="imagenes\ivan.jpeg" alt="No disponible" class="imgequipo">
+                <h5>Captador de recuersos - Ivan Hernández Morales</h5>
+                <font size=2><p>Periodista, actualmente porteño y enamorado de Brasil. Vegano desde el 2014, pero eterno amante de las papas fritas. Su mantra permanente es “Los animales son amigos, no comida”. Disfruta de leer todo tipo de temáticas y practicar trekking.</p></font>
+            </div>
+
+            <div class="column">
+                <img src="imagenes\Luis.jpg" alt="No disponible" class="imgequipo">
+                <h5>Cordinador de campañas - Luis Sandoval Correa</h5>
+                <font size=2><p>Profesor en proceso de desarrollo. Vegetariana desde el año 2016, y padre dos hermosos felinos: Enano y Princesa. Se considera un ferviente lector y escritor de la vida, además de ser una gran amante de las papas fritas, del choclo y las alcachofas con limón.</p></font>
+            </div>
+
+            <div class="column">
+                <img src="imagenes\arman.jpg" alt="No disponible" class="imgequipo">
+                <h5>Cordinador de comunicaciones - Armando Paz Roble</h5>
+                <font size=2><p>Egresado de Derecho, actualmente vive en Santiago. Se considera un amante y protector de los animales de todas las razas. Es padre de dos gatunos y una perrita muy regalones. Tambien es un ferviente adicto a las papás fritas.</p></font>
+            </div>
+
+          </div>
+
+
         <h2>Nuestras sessiones de ayuda</h2>
 
     <table>
