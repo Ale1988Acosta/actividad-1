@@ -1,0 +1,109 @@
+/*tamaño imagen*/
+.imagen{
+    width: 350px;
+    height: 270px;
+}
+
+.imgequipo{
+    width: 100px; 
+    height: 110px;
+    border-radius: 25px;
+}
+
+.narizimag{
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.imagenadot{
+    width: 700px; 
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+.sinsubrayar{
+    text-decoration: none;
+}
+
+/*Color de las letras*/
+a, h1{
+    color: #b3181f;
+    text-align: center;
+}
+
+.principal{
+    margin-top: 21px;
+    color: white;
+}
+
+.recuadro{
+    border-radius: 25px;
+    border: 2px solid #b3181f;
+    background: white;
+    padding: 20px; 
+    width: 700px;
+    height: 200px;  
+}
+
+.integrant{
+    border-radius: 25px;
+    border: 2px solid #b3181f;
+    background: lavender;
+    padding: 10px; 
+    width: 200px;
+    height: 500px;
+    margin: 100px;
+}
+.precuadro{
+    border: 2px solid #b3181f;
+    border-radius: 10px;
+    padding: 0px;
+    background: #b3181f; 
+    width: 100%;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.titulocuadro{
+    border-radius: 8px;
+    border: 2px solid #b3181f;
+    background: #b3181f;
+    padding: 20px; 
+    width: 700px;
+    height: 40px; 
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #b3181f;
+    text-align: center;
+}
+
+/*Tipo de fuente global*/
+*{
+    font-family:"Century Gothic";
+}
+
+.bar {
+    width: 50px; height: 100px;
+}
+
+body{
+    background-image: url(patas.jpg);
+    background-repeat: repeat-x;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.alianzas{
+    padding: 50px;
+}
