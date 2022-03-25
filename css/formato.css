@@ -8,6 +8,7 @@
     width: 100px; 
     height: 110px;
     border-radius: 25px;
+    margin-bottom: 20px;
 }
 
 .narizimag{
@@ -20,10 +21,17 @@
 }
 
 .imagenadot{
+    margin-right: 20px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.imagenconcu{
     width: 700px; 
     height: 350px;
     margin-right: 20px;
     border-radius: 25px;
+    margin-bottom: 25px;
 }
 
 .sinsubrayar{
@@ -46,8 +54,8 @@ a, h1{
     border: 2px solid #b3181f;
     background: white;
     padding: 20px; 
-    width: 700px;
-    height: 200px;  
+    width: 600px;
+    height: 375px;  
 }
 
 .integrant{
@@ -80,8 +88,8 @@ a, h1{
 }
 
 h2{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     color: #b3181f;
     text-align: center;
 }
