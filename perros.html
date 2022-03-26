@@ -4,133 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link tipe="text/css" rel="stylesheet" href="css/diseno.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link tipe="text/css" rel="stylesheet" href="css/diseno.css">
     <title>Sección de perros</title>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow:hidden;
-            background-color: #b3181f;
-            width: 100%;
-            border-radius: 10px;
-            
-        }
-        li {
-            float:left;
-        }
-        li a, .drop {
-            display:inline-block;
-            color: white;
-            text-align:center;
-            padding: 8px 10px;
-            text-decoration: none;
-        }
-        li a:hover:not(.active) {
-            background-color: #d8262f;
-            border-radius: 10px;
-        }
-        li a:hover, .dropdown:hover .dropbtn {
-            background-color: #d8262f;
-            border-radius: 10px;
-        }
-        li.dropdown {
-            display: inline-block;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 85px;
-            box-shadow: 0px 8px 16px 0px rgba(39, 39, 39, 0.363);
-            z-index: 1;
-            border-radius: 10px;
-        }
-
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-        }
-
-        .dropdown-content a:hover {background-color: #d8262f;}
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-    </style>
 </head>
 
-<body>
+<body >
     
-<ul>
-    
-    <a href="paginaprincipal.html" target="_self"><img class="alineadoTextoImagenCentro" src="imagenes/nariz.png" alt="No disponible" width="65" height="65" 
-        style="margin-left: 10px; margin-top: 5px; padding: 2px; margin-right: 2px;" >
-        <a href="paginaprincipal.html" target="_self" style="color: white;">Ayuda a un peludo</a> 
-    
-    
-    <li style="float: right;margin-top: 18px; margin-right: 5px;"><a href="">Hazte Socio</a></li>
-    <li style="float: right;margin-top: 18px;"><a href="">Donación</a></li>
-    <li style="float: right;margin-top: 18px;"><a href="paginaprincipal.html" target="_self">Inicio</a></li>
-    <li class="dropdown" style="margin-top: 18px; margin-left: 5px;float: right;">
-        <a href="javascript:void(0)" class="dropbtn">Adoptar</a>
-        <div class="dropdown-content">
-          <a href="perros.html">Perros</a>
-          <a href="gatos.html">Gatos</a>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top estilnav" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="paginaprincipal.html"><img src="imagenes/nariz.png" alt="No disponible" class="calma"> Ayuda a un peludo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-ite">
+                <a class="nav-link" href="paginaprincipal.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Adoptar</a>
+                <ul class="dropdown-menu estilcaja" >
+                  <li><a class="dropdown-item" href="perros.html">Perros</a></li>
+                  <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hazte socio</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Donacion</a>
+              </li>  
+              
+            </ul>
+          </div>
         </div>
-    </li>
-</ul>
-<p class="espacio"></p>
-    <h1>Perros en adopción</h1>
-    <p><center>La mayoria de nuestros amigos caninos fueron encontrados en las calles de Santiago,<br> 
-        fueron vacunados y recibieron con anterioridad el mayor cuidado, para ir a una familia mejor</center></p>
+      </nav>
+<p class="espacio" style="margin-top:120px"></p>
+    <h1 class="centrado">Perros en adopción</h1>
+    <p class="centrado">La mayoria de nuestros amigos caninos fueron encontrados en las calles de Santiago,<br> 
+        fueron vacunados y recibieron con anterioridad el mayor cuidado, para ir a una familia mejor</p>
     <p class="espacio"></p>
-    <h1>Perritos que te esperan</h1>
-    <table>
-        <tr>
-            <td><a title="Rocky" href="rocky.html"><img src="imagenes/rocky.png" alt="El canino no quiso foto" class="img"></a> &nbsp;&nbsp;&nbsp;&nbsp
-            <td><a title="Scooby" href="Scooby.html"><img src="imagenes/Scooby.jpg" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Simba" href="simba.html"><img src="imagenes/simba.png" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Max" href="max.html"><img src="imagenes/Max.jpg" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Leo" href="leo.html"><img src="imagenes/leo.png" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-               <a href="rocky.html" target="_self"><center>Rocky</center></a>
-               <td><a href="Scooby.html" target="_self"><center>Scooby</center></a></td>
-               <td><a href="simba.html" target="_self"><center>Simba</center></a></td>
-               <td><a href="max.html" target="_self"><center>Max</center></a></td>
-               <td><a href="leo.html" target="_self"><center>Leo</center></a></td>
-            </td>
-        </tr>
-    </table>
-    <div class="espacio"></div>
-    <table>
-        <tr>
-            <td><a title="Tinta" href="Tinta.html"><img src="imagenes/tinta.jpg" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp
-            <td><a title="Toby" href="Toby.html"><img src="imagenes/toby.jpg" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Luk" href="Luk.html"><img src="imagenes/luk.png" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Capitan" href="Capitan.html"><img src="imagenes/capitan.jpg" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Linda" href="Linda.html"><img src="imagenes/linda.jpg" alt="El canino no quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="Tinta.html"><center>Tinta</center></a>
-                <td><a href="Toby.html"><center>Toby</center></a></td>
-                <td><a href="Luk.html"><center>Luk</center></a></td>
-                <td><a href="Capitan.html"><center>Capitan</center></a></td>
-                <td><a href="Linda.html"><center>Linda</center></a></td>
-            </td>
-        </tr>
-    </table>
+    <h2 class="centrado" style="color: #b3181f;"><strong>Perritos que te esperan</strong></h2>
+    <div class="container">
+
+        <div class="row ">
+            <div class="col-md-3 col-sm-12 opac"><a title="Rocky" href="rocky.html"><img src="imagenes/rocky.png" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="rocky.html" target="_self" class="centrado" >Rocky</a></div>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 opac"><a title="Scooby" href="Scooby.html"><img src="imagenes/Scooby.jpg" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="Scooby.html" target="_self" class="centrado">Scooby</a></div>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 opac"><a title="Simba" href="simba.html"><img src="imagenes/simba.png" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="simba.html" target="_self" class="centrado">Simba</a></div>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 opac"><a title="Max" href="max.html"><img src="imagenes/Max.jpg" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="max.html" target="_self" >Max</a></div>
+            </div>
+            </div>
+        </div>
+
+        <div class="row separacion">
+            <div class="col-md-3 col-sm-12 opac"><a title="Leo" href="leo.html"><img src="imagenes/leo.png" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="leo.html" target="_self">Leo</a></div>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 opac"><a title="Tinta" href="Tinta.html"><img src="imagenes/tinta.jpg" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="Tinta.html" target="_self">Tinta</a></div>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 opac"><a title="Toby" href="Toby.html"><img src="imagenes/toby.jpg" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="Toby.html" target="_self">Toby</a></div>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 opac"><a title="Luk" href="Luk.html"><img src="imagenes/luk.png" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="Luk.html" target="_self">Luk</a></div>
+            </div>
+            </div>
+
+        <div class="row separacion">
+            <div class="col-md-3 col-sm-12 opac"><a title="Capitan" href="Capitan.html"><img src="imagenes/capitan.jpg" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="Capitan.html" target="_self">Capitan</a></div>
+            </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 opac"><a title="Linda" href="Linda.html"><img src="imagenes/linda.jpg" alt="El canino no quiso foto" class="img limitar_tamano"></a>
+            <div class="row separaciontex">
+                <div class="col-md-12 col-sm-12 centrado"><a href="Linda.html" target="_sef">Linda</a></div>
+            </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
     
 </body>
 </html>
