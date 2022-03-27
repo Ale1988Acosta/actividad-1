@@ -4,111 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link tipe="text/css" rel="stylesheet" href="css/diseno.css">
-    <title>Sección de perros</title>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow:hidden;
-            background-color: #b3181f;
-            width: 100%;
-            border-radius: 10px;
-            
-        }
-        li {
-            float:left;
-        }
-        li a, .drop {
-            display:inline-block;
-            color: white;
-            text-align:center;
-            padding: 8px 10px;
-            text-decoration: none;
-        }
-        li a:hover:not(.active) {
-            background-color: #d8262f;
-            border-radius: 10px;
-        }
-        li a:hover, .dropdown:hover .dropbtn {
-            background-color: #d8262f;
-            border-radius: 10px;
-        }
-        li.dropdown {
-            display: inline-block;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 85px;
-            box-shadow: 0px 8px 16px 0px rgba(39, 39, 39, 0.363);
-            z-index: 1;
-            border-radius: 10px;
-        }
-
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-        }
-
-        .dropdown-content a:hover {background-color: #d8262f;}
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link tipe="text/css" rel="stylesheet" href="css/diseno.css">
+    <link rel="icon" type="image/x-icon" href="/Imagenes/narizroja.png">
+    <title>Sección de gatos</title>
+    
 </head>
 
 <body>
     
-<ul>
-    
-    <a href="paginaprincipal.html" target="_self"><img class="alineadoTextoImagenCentro" src="imagenes/nariz.png" alt="No disponible" width="65" height="65" 
-        style="margin-left: 10px; margin-top: 5px; padding: 2px; margin-right: 2px;" >
-        <a href="paginaprincipal.html" target="_self" style="color: white;">Ayuda a un peludo</a> 
-        
-    <li style="float: right;margin-top: 18px; margin-right: 5px;"><a href="">Hazte Socio</a></li>
-    <li style="float: right;margin-top: 18px;"><a href="">Donación</a></li>
-    <li style="float: right;margin-top: 18px;"><a href="paginaprincipal.html" target="_self">Inicio</a></li>
-    <li class="dropdown" style="margin-top: 18px; margin-left: 5px;float: right;">
-        <a href="javascript:void(0)" class="dropbtn">Adoptar</a>
-        <div class="dropdown-content">
-          <a href="perros.html">Perros</a>
-          <a href="gatos.html">Gatos</a>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top estilnav" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="paginaprincipal.html"><img src="imagenes/nariz.png" alt="No disponible" class="calma"> Ayuda a un peludo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-ite">
+                <a class="nav-link" href="paginaprincipal.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Adoptar</a>
+                <ul class="dropdown-menu estilcaja" >
+                  <li><a class="dropdown-item" href="perros.html">Perros</a></li>
+                  <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hazte socio</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Donacion</a>
+              </li>  
+              
+            </ul>
+          </div>
         </div>
-    </li>
-</ul>
-    <p class="espacio"></p>
-    <h1>Gatos en adopción</h1>
-    <p><center>La mayoria de estos gatitos fueron encontrados en las calles de Santiago,<br> 
-        fueron vacunados y recibieron con anterioridad el mayor cuidado, para ir a una familia mejor</center></p>
-    <p class="espacio"></p>
-    <h1>Gatos que te esperan</h1>
-    <table>
-        <tr>
-            <td><a title="Yerry" href=""><img src="Imagenes/yerry.png" alt="No quiso foto" class="img"></a> &nbsp;&nbsp;&nbsp;&nbsp
-            <td><a title="Marie" href=""><img src="Imagenes/marie.png" alt="No quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Manolo" href=""><img src="Imagenes/manolo.png" alt="No quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Toulouse" href=""><img src="Imagenes/Toulouse.png"alt="No quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
-            <td><a title="Vela" href=""><img src="Imagenes/vela.png" alt="No quiso foto" class="img"></a>&nbsp;&nbsp;&nbsp;&nbsp</td>
+      </nav>
+      <p class="espacio" style="margin-top:120px"></p>
+      <h1 class="centrado">Gatos en adopción</h1>
+      <p class="centrado">La mayoria de estos gatitos fueron encontrados en las calles de Santiago,<br> 
+        fueron vacunados y recibieron con anterioridad el mayor cuidado, para ir a una familia mejor</p>
+      <p class="espacio"></p>
+      <h2 class="centrado" style="color: #b3181f;"><strong>Gatos que te esperan</strong></h2>
 
-        </tr>
-        <tr>
-            <td><a href="" target="_self"><center>Yerry</center></a>
-            <td><a href=""><center>Marie</center></a></td>
-            <td><a href=""><center>Manolo</center></a></td>
-            <td><a href=""><center>Toulouse</center></a></td>
-            <td><a href=""><center>Vela</center></a></td>
-        </tr>
-    </table>
-    <div class="espacio"></div>
+    <div class="container">
+    <div class="row" style="text-align: center;">
+        <div class="col-md-4 col-sm-12"> 
+            </p><a title="Yerry" href="Yerry.html"><img src="Imagenes/yerry.png" alt="No quiso foto" class="img limitar_tamano"></a> 
+                <br>
+                <a href="Yerry.html" target="_self">Yerry</a></p>
+        </div>
+        <div class="col-md-4 col-sm-12"> 
+            <p><a title="Marie" href="Marie.html"><img src="Imagenes/marie.png" alt="No quiso foto" class="img limitar_tamano"></a>
+                <br>
+                <a href="Marie.html">Marie</a>
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-12"> 
+            <p>
+                <a title="Manolo" href="Manolo.html"><img src="Imagenes/manolo.png" alt="No quiso foto" class="img limitar_tamano"></a>
+                <br>
+                <a href="Manolo.html">Manolo</a>
+            </p>
+        </div>
+    </div>
+    <div class="row" style="text-align: center;">
+        <div class="col-md-4 col-sm-12"> 
+            </p><a title="Toulouse" href="Toulouse.html"><img src="Imagenes/Toulouse.png"alt="No quiso foto" class="img limitar_tamano"></a>
+                <br>
+                <a href="Toulouse.html">Toulouse</a>
+        </div>
+        <div class="col-md-4 col-sm-12"> 
+            <p><a title="Vela" href="Vela.html"><img src="Imagenes/vela.png" alt="No quiso foto" class="img limitar_tamano"></a>
+                <br>
+                <a href="Vela.html">Vela</a>
+            </p>
+        </div>
+    </div>
+
+</div>
     
 </body>
 </html>
