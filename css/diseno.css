@@ -34,10 +34,7 @@ a:hover {
 }
 
 /*tamano imagen*/
-.img{
-    width: 230px;
-    height: 230px;
-}
+
 
 
 /*Espacio de lado botones*/
@@ -65,3 +62,53 @@ img.alineadoTextoImagenCentro{
     text-decoration: none; /*decoración texto*/
     border-radius: 50px; /*bordes redondos*/
     }
+
+  .limitar_tamano{
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+    }
+
+
+  .centrado{
+    text-align: center;
+  }
+
+.separacion{
+  margin-top: 4%;
+}
+.separaciontex{
+  margin-top: 2%;
+}
+
+.calma{
+  width: 20%;
+  max-width: 100px;
+  margin: auto;
+}
+
+
+.estilcaja{
+  box-shadow: 0px 8px 16px 0px rgba(39, 39, 39, 0.363);
+  border-radius: 10px;
+}
+
+.estilnav{
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.515);
+  border-radius: 10px;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: #b3181f;
+}
+
+.opac:hover{
+  opacity: 0.8;
+}
+
+.limitar{
+  width: 10%;
+  max-width: 100px;
+  margin: auto;
+}
+
