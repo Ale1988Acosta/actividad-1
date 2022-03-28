@@ -80,6 +80,9 @@ img.alineadoTextoImagenCentro{
 .separaciontex{
   margin-top: 2%;
 }
+.separacion_icon{
+  margin-top: 10%;
+}
 
 .calma{
   width: 20%;
@@ -110,5 +113,44 @@ img.alineadoTextoImagenCentro{
   width: 10%;
   max-width: 100px;
   margin: auto;
+}
+
+.termino{
+  background-color: #F0D5C0;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  
+}
+.centrar{
+  text-align: center;
+}
+
+.ingreso {
+  border-radius: 5px;
+  background-color: #FFFCF7;
+  padding: 3px;
+}
+
+.column{
+  width: 100%;
+  max-width: 275px;
+  padding: 15px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: blanchedalmond;
+  border-radius: 25px;
+}
+
+.redes{
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+}
+
+.limdon{
+  width: 30%;
+  max-width: 100px;
+  margin: auto;
+
 }
 
