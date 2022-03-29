@@ -154,3 +154,9 @@ img.alineadoTextoImagenCentro{
 
 }
 
+.limitarcarusel{
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 25px;
+}
